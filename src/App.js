@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from 'react';
+import PropagateLoader from 'react-spinners/PropagateLoader'
+import Home from './components/pages/Home'
+import gif from "./components/assets/img/giphy.gif"
+import AppRouter from './router/AppRouter';
 
 function App() {
+  const [loading,setLoading] = useState(false);
+
+  useEffect(()=>{
+    setLoading(true);
+    setTimeout(()=>{
+      setLoading(false);
+    },2500)
+
+  },[])
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {loading ? (
+      <div style={{"height":"100vh","backgroundColor":"black", "display":"flex","alignItems":"center","justifyContent":"center"}} >
+          <img  style={{"width":"130px"}} src={gif} alt="" />
+          {/* <PropagateLoader size={30} color={'red'} loading={loading}/> */}
+      </div>
+      ): ( 
+        <div>
+        <AppRouter />
+        </div>
+      )}
+     
     </div>
   );
 }
