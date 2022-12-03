@@ -514,7 +514,7 @@ const products={
         {
             id:1,
             title:"Fitness Nitric Pre-Shock",
-            price:29.99,
+            price:76.99,
             image:offers1,
             arriving:"12",
             single:single,
@@ -523,7 +523,7 @@ const products={
         {
             id:2,
             title:"Fitness Nitric Pre-Shock",
-            price:29.99,
+            price:24.99,
             image:offers2,
             arriving:"15",
             single:single,
@@ -533,7 +533,7 @@ const products={
         {
             id:3,
             title:"Fitness Nitric Pre-Shock",
-            price:29.99,
+            price:17.99,
             image:offers3,
             arriving:"5",
             single:single,
@@ -542,7 +542,7 @@ const products={
         {
             id:4,
             title:"Fitness Nitric Pre-Shock",
-            price:29.99,
+            price:65.99,
             image:offers4,
             arriving:"18",
             single:single,
@@ -551,7 +551,7 @@ const products={
         {
             id:5,
             title:"Fitness Nitric Pre-Shock",
-            price:29.99,
+            price:53.99,
             image:offers5,
             arriving:"19",
             single:single,
@@ -560,7 +560,7 @@ const products={
         {
             id:6,
             title:"Fitness Nitric Pre-Shock",
-            price:29.99,
+            price:32.99,
             image:offers6,
             arriving:"26",
             single:single,
@@ -569,7 +569,7 @@ const products={
         {
             id:7,
             title:"Fitness Nitric Pre-Shock",
-            price:29.99,
+            price:21.99,
             image:offers7,
             arriving:"14",
             single:single,
@@ -578,7 +578,7 @@ const products={
         {
             id:8,
             title:"Fitness Nitric Pre-Shock",
-            price:29.99,
+            price:45.99,
             image:offers8,
             arriving:"19",
             single:single,
@@ -587,18 +587,18 @@ const products={
     ],
     deal:[
         {
-            id:1,
+            id:9,
             title:"Fitness Nitric Pre-Shock",
-            price:29.99,
+            price:61.99,
             image:deal1,
             arriving:"18",
             single:single,
             count:5
         },
         {
-            id:2,
+            id:10,
             title:"Fitness Nitric Pre-Shock",
-            price:29.99,
+            price:43.99,
             image:deal2,
             arriving:"19",
             single:single,
@@ -606,34 +606,34 @@ const products={
         },
 
         {
-            id:3,
+            id:11,
             title:"Fitness Nitric Pre-Shock",
-            price:29.99,
+            price:50.99,
             image:deal3,
             arriving:"20",
             single:single,
             count:4
         },
         {
-            id:4,
+            id:12,
             title:"Fitness Nitric Pre-Shock",
-            price:29.99,
+            price:99.99,
             image:deal4,
             arriving:"27",
             single:single,
             count:5
         },
         {
-            id:5,
+            id:13,
             title:"Fitness Nitric Pre-Shock",
-            price:29.99,
+            price:34.99,
             image:deal5,
             arriving:"29",
             single:single,
             count:4
         },
         {
-            id:6,
+            id:14,
             title:"Fitness Nitric Pre-Shock",
             price:29.99,
             image:deal6,
@@ -642,18 +642,18 @@ const products={
             count:5
         },
         {
-            id:7,
+            id:15,
             title:"Fitness Nitric Pre-Shock",
-            price:29.99,
+            price:45.99,
             image:deal7,
             arriving:"16",
             single:single,
             count:5
         },
         {
-            id:8,
+            id:16,
             title:"Fitness Nitric Pre-Shock",
-            price:29.99,
+            price:20.99,
             image:deal8,
             arriving:"11",
             single:single,
@@ -662,7 +662,7 @@ const products={
     ],
     promotion:[
         {
-            id:1,
+            id:17,
             title:"Fitness Nitric Pre-Shock",
             del:70.25,
             price:40.99,
@@ -672,7 +672,7 @@ const products={
             count:5
         },
         {
-            id:2,
+            id:18,
             title:"Fitness Nitric Pre-Shock",
             del:64.25,
             price:35.99,
@@ -683,7 +683,7 @@ const products={
         },
 
         {
-            id:3,
+            id:19,
             title:"Fitness Nitric Pre-Shock",
             del:16.25,
             price:9.99,
@@ -693,7 +693,7 @@ const products={
             count:5
         },
         {
-            id:4,
+            id:20,
             title:"Fitness Nitric Pre-Shock",
             del:83.99,
             price:69.99,
@@ -703,7 +703,7 @@ const products={
             count:4
         },
         {
-            id:5,
+            id:21,
             title:"Fitness Nitric Pre-Shock",
             del:97.99,
             price:75.99,
@@ -713,7 +713,7 @@ const products={
             count:5
         },
         {
-            id:6,
+            id:22,
             title:"Fitness Nitric Pre-Shock",
             del:61.25,
             price:40.99,
@@ -723,7 +723,7 @@ const products={
             count:5
         },
         {
-            id:7,
+            id:23,
             title:"Fitness Nitric Pre-Shock",
             del:35.99,
             price:21.99,
@@ -733,7 +733,7 @@ const products={
             count:5
         },
         {
-            id:8,
+            id:24,
             title:"Fitness Nitric Pre-Shock",
             del:43.25,
             price:29.99,

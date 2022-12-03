@@ -1,0 +1,464 @@
+.card-text {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-text .circle {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card-text .circlev2 {
+  width: 40%;
+  height: 470px;
+  border-radius: 50%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.card-text .circlev2 i {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.card-text .circlev2 p {
+  padding-top: 15px;
+  color: #7e7e7e;
+  font-size: 11px;
+  padding-bottom: 40px;
+}
+
+.card-text .circlev2 button {
+  margin-top: 10px;
+  background-color: red;
+  border: 0;
+  padding: 15px 30px;
+  color: white;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.card-text .circlev2 button .buttonlink {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.card-text .circlev2 button:hover {
+  background-color: black;
+}
+
+.card-text h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  font-family: Poppins, sans-serif;
+  letter-spacing: 0px;
+  text-align: inherit;
+  color: #191919;
+  text-transform: none;
+  margin-bottom: 30px;
+}
+
+.cards {
+  background-color: white;
+  padding-bottom: 100px;
+}
+
+.cards .card-product {
+  cursor: pointer;
+  box-shadow: 2px 5px 5px 3px rgba(110, 108, 108, 0.2);
+  -webkit-box-shadow: 2px 5px 5px 3px rgba(110, 108, 108, 0.2);
+  -moz-box-shadow: 2px 5px 5px 3px rgba(110, 108, 108, 0.2);
+  margin-bottom: 55px;
+  position: relative;
+}
+
+.cards .card-product .card-product-img img {
+  width: 100%;
+}
+
+.cards .card-product .card-product-text {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cards .card-product .card-product-text h4 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1.75em;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.cards .card-product .card-product-text h5 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.56em;
+  letter-spacing: 0px;
+  color: #FF0505;
+  text-align: left;
+}
+
+.cards .card-product .card-product-text p {
+  color: #7e7e7e;
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+.cards .card-product .card-product-text span {
+  font-size: 17px;
+}
+
+.cards .card-product .card-product-text span .quantitybutton {
+  background-color: red;
+  color: white;
+  border: 0;
+  margin: 5px;
+}
+
+.cards .card-product .card-product-text span .quantitybutton span {
+  font-size: 18px;
+  padding: 2px;
+}
+
+.cards .card-product .card-product-text .removebutton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: 0;
+  background-color: white;
+}
+
+.cards .card-product .card-product-text .removebutton span {
+  font-size: 16px;
+}
+
+.cards .card-end {
+  padding-top: 40px;
+}
+
+.cards .card-end .card-end-text {
+  text-align: left;
+}
+
+.cards .card-end .card-end-text h1 {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: #191919;
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+.cards .card-end .card-end-text h1:nth-child(1) {
+  font-weight: 600;
+}
+
+.cards .card-end .card-end-text h1:nth-child(7) {
+  color: red;
+}
+
+.cards .card-end .card-end-text .card-end-buttons button {
+  margin-top: 20px;
+  background-color: red;
+  border: 0;
+  padding: 10px 10px;
+  margin-right: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Poppins", Sans-serif;
+}
+
+.cards .card-end .card-end-text .card-end-buttons button:nth-child(1) {
+  background-color: green;
+}
+
+.cards .card-end .card-end-text .card-end-buttons button:nth-child(2) {
+  background-color: red;
+}
+
+.light .card-text {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.light .card-text .circle {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.light .card-text .circlev2 {
+  width: 40%;
+  height: 470px;
+  border-radius: 50%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.light .card-text .circlev2 i {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.light .card-text .circlev2 p {
+  padding-top: 15px;
+  color: #7e7e7e;
+  font-size: 11px;
+  padding-bottom: 40px;
+}
+
+.light .card-text .circlev2 button {
+  margin-top: 10px;
+  background-color: red;
+  border: 0;
+  padding: 15px 30px;
+  color: white;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.light .card-text .circlev2 button .buttonlink {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.light .card-text .circlev2 button:hover {
+  background-color: black;
+}
+
+.light .card-text h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  font-family: Poppins, sans-serif;
+  letter-spacing: 0px;
+  text-align: inherit;
+  color: white;
+  text-transform: none;
+  margin-bottom: 30px;
+}
+
+.light .cards {
+  background-color: black;
+  padding-bottom: 100px;
+}
+
+.light .cards .card-product {
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 2px 5px 5px 3px rgba(110, 108, 108, 0.2);
+  -webkit-box-shadow: 2px 5px 5px 3px rgba(110, 108, 108, 0.2);
+  -moz-box-shadow: 2px 5px 5px 3px rgba(110, 108, 108, 0.2);
+  margin-bottom: 55px;
+  position: relative;
+}
+
+.light .cards .card-product .card-product-img img {
+  width: 100%;
+}
+
+.light .cards .card-product .card-product-text {
+  background-color: white;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.light .cards .card-product .card-product-text h4 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1.75em;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.light .cards .card-product .card-product-text h5 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.56em;
+  letter-spacing: 0px;
+  color: #FF0505;
+  text-align: left;
+}
+
+.light .cards .card-product .card-product-text p {
+  color: #7e7e7e;
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+.light .cards .card-product .card-product-text span {
+  font-size: 17px;
+}
+
+.light .cards .card-product .card-product-text span .quantitybutton {
+  background-color: red;
+  color: white;
+  border: 0;
+  margin: 5px;
+}
+
+.light .cards .card-product .card-product-text span .quantitybutton span {
+  font-size: 18px;
+  padding: 2px;
+}
+
+.light .cards .card-product .card-product-text .removebutton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: 0;
+  background-color: white;
+}
+
+.light .cards .card-product .card-product-text .removebutton span {
+  font-size: 16px;
+}
+
+.light .cards .card-end {
+  padding-top: 40px;
+}
+
+.light .cards .card-end .card-end-text {
+  text-align: left;
+}
+
+.light .cards .card-end .card-end-text h1 {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: white;
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+.light .cards .card-end .card-end-text h1:nth-child(1) {
+  font-weight: 600;
+}
+
+.light .cards .card-end .card-end-text h1:nth-child(7) {
+  color: red;
+}
+
+.light .cards .card-end .card-end-text .card-end-buttons button {
+  margin-top: 20px;
+  background-color: red;
+  border: 0;
+  padding: 10px 10px;
+  margin-right: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Poppins", Sans-serif;
+}
+
+.light .cards .card-end .card-end-text .card-end-buttons button:nth-child(1) {
+  background-color: green;
+}
+
+.light .cards .card-end .card-end-text .card-end-buttons button:nth-child(2) {
+  background-color: red;
+}
+/*# sourceMappingURL=card.css.map */

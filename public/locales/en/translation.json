@@ -1,0 +1,43 @@
+{
+    "navbar": {
+        "1": "Home",
+        "2": "Shop",
+        "3": "Blogs",
+        "4": "About",
+        "5": "Contact",
+        "6":"Card"
+    },
+    "home": {
+        "0":"Boost",
+        "1":  "Your immune system today",
+        "2":"Shop Now",
+        "3":"Recent Products",
+        "4":"Add to Cart",
+        "5":"Best Offers",
+        "6":"But I must explain to you how all this mistaken idea of denouncing pleasure",
+        "7":"30-day Money-Back Guarantee",
+        "8":"If you are not 100% satisfied, tell us within 30 days, and get your money back.",
+        "9":"Deal Of The Days",
+        "10":"Run a bit to be fit.",
+        "11":"Succesful Program",
+        "12":"days",
+        "13":"hours",
+        "14":"minutes",
+        "15":"seconds",
+        "16":" One nutrition, One nation."
+       
+        
+
+        
+    },
+    "Shop": {
+        "0":"Category",
+        "1":  "Whey Protein",
+        "2":"Supplement",
+        "3":"Sport Drink",
+        "4":"Nutrition",
+        "5":"Vitamins",
+        "6":"Snacks"
+        
+    }
+}

@@ -1,0 +1,315 @@
+.productdetail {
+  padding-top: 100px;
+  box-shadow: 2px 5px 5px 3px rgba(110, 108, 108, 0.2);
+  -webkit-box-shadow: 2px 5px 5px 3px rgba(110, 108, 108, 0.2);
+  -moz-box-shadow: 2px 5px 5px 3px rgba(110, 108, 108, 0.2);
+}
+
+.productdetail .productdetail-img {
+  position: relative;
+  padding-left: 190px;
+}
+
+.productdetail .productdetail-img .productdetail-img-top {
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  background-color: #FF0505;
+}
+
+.productdetail .productdetail-img .productdetail-img-top span {
+  font-family: "Poppins", Sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 5px;
+  line-height: 27px;
+}
+
+.productdetail .productdetail-text {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background-color: white;
+}
+
+.productdetail .productdetail-text product-detail-main h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  font-family: Poppins, sans-serif;
+  letter-spacing: 0em;
+  text-align: inherit;
+}
+
+.productdetail .productdetail-text .productdetail-text-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25%;
+}
+
+.productdetail .productdetail-text .productdetail-text-price h6 {
+  padding-top: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #191919;
+}
+
+.productdetail .productdetail-text .productdetail-text-price h4 {
+  font-size: 36px;
+  font-weight: 600;
+  color: red;
+}
+
+.productdetail .productdetail-text p {
+  max-width: 500px;
+  color: #191919;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.productdetail .productdetail-text button {
+  background-color: red;
+  border: 0;
+  padding: 15px 40px;
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.productdetail .productdetail-text button .shopbutton {
+  text-transform: uppercase;
+  color: white;
+  font-family: "Poppins", Sans-serif;
+  text-decoration: none;
+}
+
+.productdetail .productdetail-text h5 {
+  padding-bottom: 5px;
+  color: #191919;
+  font-size: 15px;
+}
+
+.productdetail .productdetail-related {
+  padding-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productdetail .productdetail-related .circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.productdetail .productdetail-related h2 {
+  color: #191919;
+  font-family: "Poppins", Sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.productdetail .productdetail-related .recent-product {
+  cursor: pointer;
+  background: white;
+  margin-bottom: 35px;
+  width: 90%;
+}
+
+.productdetail .productdetail-related .recent-product .recent-img {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.productdetail .productdetail-related .recent-product .recent-img .recent-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  background-color: #FF0505;
+}
+
+.productdetail .productdetail-related .recent-product .recent-img .recent-top span {
+  font-family: "Poppins", Sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 27px;
+  padding: 5px;
+}
+
+.productdetail .productdetail-related .recent-product .recent-img img {
+  width: 90%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  opacity: 1;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.productdetail .productdetail-related .recent-product .recent-title {
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productdetail .productdetail-related .recent-product .recent-title h5 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.75em;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.productdetail .productdetail-related .recent-product .recent-title h4 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.56em;
+  letter-spacing: 0px;
+  color: #FF0505;
+  text-align: center;
+}
+
+.productdetail .productdetail-related .recent-product .recent-title .recent-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.productdetail .productdetail-related .recent-product .recent-title .recent-button .cardbutton {
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color: red;
+  border: 0;
+  padding: 10px 40px;
+  color: white;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.productdetail .productdetail-related .recent-product .recent-title .recent-button .cardbutton:hover {
+  background-color: black;
+  color: white;
+}
+
+.payment .payment-text {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.payment .payment-text .circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.payment .payment-text h2 {
+  color: #191919;
+  font-family: "Poppins", Sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+}
+
+.payment .payment-box {
+  box-shadow: 2px 5px 5px 3px rgba(110, 108, 108, 0.2);
+  -webkit-box-shadow: 2px 5px 5px 3px rgba(110, 108, 108, 0.2);
+  -moz-box-shadow: 2px 5px 5px 3px rgba(110, 108, 108, 0.2);
+}
+
+.payment .payment-box .payment-form form {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.payment .payment-box .payment-form form input {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  width: 30%;
+}
+
+.payment .payment-box .payment-form form button {
+  background-color: red;
+  border: 0;
+  padding: 15px 40px;
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.payment .payment-box .payment-form form input::-webkit-outer-spin-button,
+.payment .payment-box .payment-form form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/*# sourceMappingURL=productdetailpayment.css.map */

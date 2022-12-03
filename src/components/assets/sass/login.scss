@@ -1,0 +1,138 @@
+.loginsection{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    .login-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom:5px;
+        .circle{
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+           background-color: red;
+           margin-bottom: 10px;
+        }
+        h2{
+            color: #191919;
+            font-family: "Poppins", Sans-serif;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 1.3em;
+            letter-spacing: 0px;
+        }
+    }
+    .login-form-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        form{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            input{
+                max-width: 600px;
+                margin-bottom: 10px;
+                width: 100%;
+            }
+            label{
+                font-family: "Poppins", Sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 1.57em;
+                margin-bottom: 5px;
+            }
+            button{
+                margin-top:10px ;
+                background-color: red;
+                border: 0;
+                padding: 15px 40px;
+                color: white;
+                font-size: 16px;
+                font-weight: 800;
+                margin-bottom: 20px;
+               }
+               a{
+                text-decoration: none;
+                color: black;
+                &:hover{
+                    text-decoration: underline;
+                }
+               }
+            
+        }
+    }
+}
+.light{
+    .loginsection{
+        padding-top: 50px;
+        padding-bottom: 40px;
+        .login-text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom:5px;
+            .circle{
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+               background-color: red;
+               margin-bottom: 10px;
+            }
+            h2{
+                color: white;
+                font-family: "Poppins", Sans-serif;
+                font-size: 36px;
+                font-weight: 600;
+                line-height: 1.3em;
+                letter-spacing: 0px;
+            }
+        }
+        .login-form-main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            form{
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                input{
+                    max-width: 600px;
+                    margin-bottom: 10px;
+                    width: 100%;
+                }
+                h6{
+                    color: white;
+                }
+                label{
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 1.57em;
+                    margin-bottom: 5px;
+                    color: white;
+                }
+                button{
+                    margin-top:10px ;
+                    background-color: red;
+                    border: 0;
+                    padding: 15px 40px;
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 800;
+                    margin-bottom: 20px;
+                   }
+                   a{
+                    text-decoration: none;
+                    color: white;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                   }
+                
+            }
+        }
+    }
+}

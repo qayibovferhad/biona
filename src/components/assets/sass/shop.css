@@ -1,0 +1,444 @@
+.shop-text {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 30px;
+}
+
+.shop-text .circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.shop-text h1 {
+  color: #191919;
+  font-family: "Poppins", Sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+  padding-top: 25px;
+}
+
+.contact-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+}
+
+.contact-text .circle {
+  width: 9px;
+  height: 9px;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.contact-text h3 {
+  color: #191919;
+  font-family: "Poppins", Sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+  padding-bottom: 5px;
+}
+
+.contact-web {
+  padding-bottom: 70px;
+}
+
+.contact-web .contact-form {
+  margin-top: 30px;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.contact-web .contact-form .contactform {
+  padding-left: 30px;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-web .contact-form .contactform input {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  width: 70%;
+}
+
+.contact-web .contact-form .contactform label {
+  font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.57em;
+}
+
+.contact-web .contact-form button {
+  width: 30%;
+  background-color: red;
+  border: 0;
+  padding: 15px 40px;
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Poppins", Sans-serif;
+}
+
+.contact-web .contact-info {
+  margin-top: 30px;
+  background-color: white;
+  width: 60%;
+}
+
+.contact-web .contact-info .adress-info {
+  padding-left: 12px;
+  padding-top: 18px;
+}
+
+.contact-web .contact-info .adress-info h1 {
+  color: #191919;
+  font-family: "Poppins", Sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.43em;
+}
+
+.contact-web .contact-info .adress-info h3 {
+  color: #191919;
+  font-family: "Poppins", Sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.75em;
+}
+
+.shop {
+  background-color: #f3f3f3;
+  margin-bottom: 50px;
+}
+
+.shop .shoptext {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 30px;
+}
+
+.shop .shoptext .circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.shop .shoptext h3 {
+  color: #191919;
+  font-family: "Poppins", Sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+  padding-top: 15px;
+}
+
+.shop .shopitem {
+  margin: 10px;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 2px 5px 5px 3px rgba(110, 108, 108, 0.2);
+  -webkit-box-shadow: 2px 5px 5px 3px rgba(110, 108, 108, 0.2);
+  -moz-box-shadow: 2px 5px 5px 3px rgba(110, 108, 108, 0.2);
+}
+
+.shop .shopitem .shopitem-img img {
+  width: 100%;
+}
+
+.shop .shopitem .shopitem-text {
+  width: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 200px;
+}
+
+.shop .shopitem .shopitem-text .buttonlink {
+  text-decoration: none;
+}
+
+.shop .shopitem .shopitem-text h3 {
+  text-decoration: none !important;
+  color: #191919;
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.light .shop-text {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 30px;
+}
+
+.light .shop-text .circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.light .shop-text h1 {
+  color: white;
+  font-family: "Poppins", Sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+  padding-top: 25px;
+}
+
+.light .shop-text h2 {
+  color: white;
+}
+
+.light .contact-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+}
+
+.light .contact-text .circle {
+  width: 9px;
+  height: 9px;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.light .contact-text h3 {
+  color: white;
+  font-family: "Poppins", Sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+  padding-bottom: 5px;
+}
+
+.light .contact-web {
+  padding-bottom: 70px;
+}
+
+.light .contact-web .contact-form {
+  margin-top: 30px;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.light .contact-web .contact-form .contactform {
+  padding-left: 30px;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.light .contact-web .contact-form .contactform input {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  width: 70%;
+}
+
+.light .contact-web .contact-form .contactform label {
+  font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.57em;
+}
+
+.light .contact-web .contact-form button {
+  width: 30%;
+  background-color: red;
+  border: 0;
+  padding: 15px 40px;
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Poppins", Sans-serif;
+}
+
+.light .contact-web .contact-info {
+  margin-top: 30px;
+  background-color: white;
+  width: 60%;
+}
+
+.light .contact-web .contact-info .adress-info {
+  padding-left: 12px;
+  padding-top: 18px;
+}
+
+.light .contact-web .contact-info .adress-info h1 {
+  color: black;
+  font-family: "Poppins", Sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.43em;
+}
+
+.light .contact-web .contact-info .adress-info h3 {
+  color: black;
+  font-family: "Poppins", Sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.75em;
+}
+
+.light .shop {
+  background-color: black;
+  margin-bottom: 50px;
+}
+
+.light .shop .shoptext {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 30px;
+}
+
+.light .shop .shoptext .circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.light .shop .shoptext h3 {
+  color: white;
+  font-family: "Poppins", Sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+  padding-top: 15px;
+}
+
+.light .shop .shopitem {
+  margin: 10px;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 2px 5px 5px 3px rgba(110, 108, 108, 0.2);
+  -webkit-box-shadow: 2px 5px 5px 3px rgba(110, 108, 108, 0.2);
+  -moz-box-shadow: 2px 5px 5px 3px rgba(110, 108, 108, 0.2);
+}
+
+.light .shop .shopitem .shopitem-img img {
+  width: 100%;
+}
+
+.light .shop .shopitem .shopitem-text {
+  width: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 200px;
+}
+
+.light .shop .shopitem .shopitem-text .buttonlink {
+  text-decoration: none;
+}
+
+.light .shop .shopitem .shopitem-text h3 {
+  text-decoration: none !important;
+  color: black;
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=shop.css.map */

@@ -22,7 +22,7 @@ export default[
     count:5,
     desc:"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms.",
     arriving:10,
-    category:"Whey Protein"
+    category:"Snacks"
   },
   {
     id:18,
@@ -32,8 +32,8 @@ export default[
     price:19.99,
     count:5,
     desc:"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms.",
-    arriving:10,
-    category:"Whey Protein"
+    arriving:5,
+    category:"Snacks"
   },
 
   {
@@ -42,10 +42,10 @@ export default[
     title:"Fitness Nitric Pre-Shock",
     del:29.99,
     price:20.99,
-    count:5,
+    count:4,
     desc:"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms.",
     arriving:10,
-    category:"Whey Protein"
+    category:"Snacks"
   },
 
   {
@@ -56,8 +56,8 @@ export default[
     price:45.99,
     count:5,
     desc:"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms.",
-    arriving:10,
-    category:"Whey Protein"
+    arriving:18,
+    category:"Snacks"
   },
 
 
@@ -69,8 +69,8 @@ export default[
     price:10.99,
     count:5,
     desc:"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms.",
-    arriving:10,
-    category:"Whey Protein"
+    arriving:12,
+    category:"Snacks"
   },
 
   {
@@ -81,8 +81,8 @@ export default[
     price:37.55,
     count:5,
     desc:"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms.",
-    arriving:10,
-    category:"Whey Protein"
+    arriving:15,
+    category:"Snacks"
   },
 
   {
@@ -91,10 +91,10 @@ export default[
     title:"Fitness Nitric Pre-Shock",
     del:45.99,
     price:27.99,
-    count:5,
+    count:4,
     desc:"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms.",
-    arriving:10,
-    category:"Whey Protein"
+    arriving:21,
+    category:"Snacks"
   },
   {
     id:24,
@@ -104,8 +104,8 @@ export default[
     price:24.65,
     count:5,
     desc:"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms.",
-    arriving:10,
-    category:"Whey Protein"
+    arriving:16,
+    category:"Snacks"
   },
   {
     id:25,
@@ -113,10 +113,10 @@ export default[
     title:"Fitness Nitric Pre-Shock",
     del:36.55,
     price:30.55,
-    count:5,
+    count:4,
     desc:"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms.",
-    arriving:10,
-    category:"Whey Protein"
+    arriving:11,
+    category:"Snacks"
   },
   {
     id:26,
@@ -126,8 +126,8 @@ export default[
     price:6.75,
     count:5,
     desc:"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms.",
-    arriving:10,
-    category:"Whey Protein"
+    arriving:7,
+    category:"Snacks"
   },
 
   {
@@ -139,7 +139,7 @@ export default[
     count:5,
     desc:"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms.",
     arriving:10,
-    category:"Whey Protein"
+    category:"Snacks"
   },
 
   {
@@ -150,8 +150,8 @@ export default[
     price:17.65,
     count:5,
     desc:"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms.",
-    arriving:10,
-    category:"Whey Protein"
+    arriving:12,
+    category:"Snacks"
   },
 
 
@@ -161,10 +161,10 @@ export default[
     title:"Fitness Nitric Pre-Shock",
     del:65.55,
     price:59.75,
-    count:5,
+    count:4,
     desc:"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms.",
-    arriving:10,
-    category:"Whey Protein"
+    arriving:13,
+    category:"Snacks"
   },
 
  
