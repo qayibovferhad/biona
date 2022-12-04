@@ -6,6 +6,7 @@
         "4": "Haqqımızda",
         "5": "Əlaqə",
         "6":"Kart"
+     
     },
     "home": {
 
@@ -15,7 +16,27 @@
         "3":"Son Əlavə Edilənlər",
         "4":"Karta Əlavə Et",
         "5":"Ən yaxşı təkliflər",
-        "6":"Amma mən sizə izah etməliyəm ki, bütün bu səhv fikirlərin ləzzəti pisləmək necədir"
+        "6":"Amma mən sizə həzzi inkar etmək və ağrını tərifləmək kimi bütün bu yanlış fikirlərin necə yarandığını izah etməliyəm və sizə sistemin tam hesabını verəcəyəm.",
+        "7":"30 günlük pulun geri qaytarılması zəmanəti",
+        "8":"Əgər 100% razı deyilsinizsə, 30 gün ərzində bizə bildirin və pulunuzu geri alın.",
+        "9":"Günlərin Sövdələşməsi",
+        "10":"Fit olmaq üçün bir az qaçın.",
+        "11":"Uğurlu Proqram",
+        "12":"gün",
+        "13":"saat",
+        "14":"dəqiqə",
+        "15":"saniyə",
+        "16":" Bir qidalanma, bir ölkə.",
+        "17":"Aktual Xəbərlər",
+        "18":"Yeni bir şey axtarırsınız? Tövsiyə olunan kolleksiyalarımızdan ilham alın",
+        "19":"Daha çox oxu",
+        "20":"Bizim Partnerlərimiz",
+        "21":"*Bu ifadələr Qida və Dərman İdarəsi tərəfindən qiymətləndirilməyib. Bu məhsullar diaqnoz üçün nəzərdə tutulmayıb.",
+        "22":"Xəbər bülleteni üçün qeydiyyatdan keçin",
+        "23":"Abunə ol",
+        "24":"Daha çox oxu",
+        "26": "Pulsuz Konsultasiya üçün Əlaqə:",
+        "25":"Həftənin Endirimləri"
 
     },
     "Shop": {
@@ -27,5 +48,67 @@
         "5":"Vitaminlər",
         "6":"Qəlyanaltılar"
         
+    },"contact": {
+        "0":"Bizimlə Əlaqəyə Keçin",
+        "1":  "Ad",
+        "2":"Sizin adınız",
+        "3":"E-mail",
+        "4":"Sizin email adressiniz",
+        "5":"Telefon",
+        "6":"Sizin telefon nömrəniz",
+        "7":  "Ölkə/Ərazi",
+        "8":"Mesajınızı yazın",
+        "9":"Adres",
+        "10":"Email Adress",
+        "11":"İş Saatları"
+
+        
+    },
+    "cart": {
+        "0":"Mənim Kartım",
+        "1":  "Sizin Kartınız Boşdur",
+        "2":"Alış-verişə keçin",
+        "3":"Sifariş Xülasə",
+        "4":"Ümumi Sifarişlər",
+        "5":"Məbləğ",
+        "6":"Vergi",
+        "7":"Çatdırılma",
+        "8":"Ümumi Endirim",
+        "9":"İndi Al",
+        "10":"Sifarişi Ləğv Et",
+        "11":"Ümumi Sifariş"
+
+        
+    },
+    "Login": {
+        "0":"Giriş",
+        "1": "İstifadəçi Adı",
+        "2":"Password",
+        "3":"Göndər",
+        "4":"Hesabınız Yoxdur? ",
+        "5":"Qeydiyyat"
+ 
+
+        
+    },
+
+
+    "about": {
+        "0":"Qoy yemək sənin dərmanın, dərmanın yeməyin olsun.",
+        "1":  "Amma mən sizə həzzi inkar etmək və ağrını tərifləmək kimi bütün bu yanlış fikirlərin necə yarandığını izah etməliyəm və sizə sistemin tam hesabını verəcəyəm.",
+        "2":"Birinci sərvət sağlamlıqdır.",
+        "3":"Bizim məsuliyyətimiz",
+        "4":"Kollektiv olaraq, Biona icması qida elmini və bir-birini aşağıdakı ümumi dəyərlər vasitəsilə inkişaf etdirmək üçün birlikdə çalışır:",
+        "5":"1939-cu ildən bəri Biona İnstitutu, kollektiv elmi biliyi bütün dünyadakı insanların rifahı üçün innovativ həllərə çevirməyə ruhlandırmaq məqsədi ilə əməkdaşlıq etmək, öyrənmək və hamıya töhfə vermək üçün qida mütəxəssisləri və texnoloqlarının ehtiraslı elmi üçün forumdur. məqsədə əsaslanan elmi ictimaiyyət, Biona dünyanı qidalandıran ağılları qidalandırır.",
+        "6":"Partnyorlarımız",
+        "7":"Bizim məsuliyyətimiz",
+        "8":"Kollektiv olaraq, Biona icması qida elmini və bir-birini aşağıdakı ümumi dəyərlər vasitəsilə inkişaf etdirmək üçün birlikdə çalışır:",
+        "9":"Biona-da biz üzvlərimizə təkcə həyatlarını yaxşılaşdırmaq və zənginləşdirmək üçün deyil, həm də təşkilatlarına və bütövlükdə qida peşəsi elminə daha böyük töhfələr verməyə kömək etmək üçün karyeralarını artırmaq və inkişaf etdirmək üçün lazım olan resursları və xidmətləri təqdim etməyə sadiqik. Bununla biz hamımız qlobal ərzaq təchizatımızın davamlılığının yaxşılaşdırılmasına töhfə veririk.",
+        "10":"1939-cu ildən bəri Biona İnstitutu, kollektiv elmi biliyi bütün dünyadakı insanların rifahı üçün innovativ həllərə çevirməyə ruhlandırmaq məqsədi ilə əməkdaşlıq etmək, öyrənmək və hamıya töhfə vermək üçün qida mütəxəssisləri və texnoloqlarının ehtiraslı elmi üçün forumdur. məqsədə əsaslanan elmi ictimaiyyət, Biona dünyanı qidalandıran ağılları qidalandırır.", 
+        "11":"Bir qidalanma, bir millət.",
+        "12":"Amma mən sizə izah etməliyəm ki, həzzi pisləmək və tərifləmək kimi bütün bu səhv fikir necə yaranıb və sizə tam bir fikir verəcəyəm",
+        "13":"Indi Alış-veriş Edin"
     }
+
+ 
 }

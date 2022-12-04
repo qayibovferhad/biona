@@ -1,14 +1,21 @@
 import React from 'react'
 import data from '../../data/data1'
+import  '../../data/langConfig/i18next';
+import { useTranslation } from "react-i18next";
 const Guarantee = () => {
+    const { t, i18n } = useTranslation();
+
+    const langClick = (lang) => {
+      i18n.changeLanguage(lang);
+    };
   return (
     <section className='guarantee'>
       
         <div className="container">
         <div className="guarantee-title">
             <div className="circle"></div>
-            <h1>30-day Money-Back Guarantee</h1>
-            <p>If you are not 100% satisfied, tell us within 30 days, and get your money back.</p>
+            <h1>{t("home.7")}</h1>
+            <p>{t("home.8")}</p>
         </div>
         <div className="row">
             {data.data3.map((item,key)=>{

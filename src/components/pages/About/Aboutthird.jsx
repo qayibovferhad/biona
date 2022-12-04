@@ -3,7 +3,14 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import data from "../../data/data1";
+import  '../../data/langConfig/i18next';
+import { useTranslation } from "react-i18next";
 const Aboutthird = () => {
+    const { t, i18n } = useTranslation();
+
+    const langClick = (lang) => {
+      i18n.changeLanguage(lang);
+    };
     const options = {
         margin: 30,
         responsiveClass: true,
@@ -33,7 +40,7 @@ const Aboutthird = () => {
     <div className="container">
         <div className="aboutthird-text">
                 <div className="circle"></div>
-                <h2>Our Partners</h2>
+                <h2>{t("about.6")}</h2>
             </div>
         </div>
            <div className="aboutthird-main">
@@ -57,16 +64,12 @@ const Aboutthird = () => {
                 <div className="row">
                     <div className="col-lg-6 col-12">
                         <div className="aboutthird-main-text">
-                            <p>
-Since 1939, the Institute of Biona has been a forum for passionate science of food professionals and technologists to collaborate, learn, and contribute all with the goal of inspiring transforming collective scientific knowledge into innovative solutions for the benefit of all people around the world.As a scientific community grounded in purpose, Biona feeds the minds that feed the world.</p>
+                            <p>{t("about.10")}</p>
                         </div>
                     </div>
                     <div className="col-lg-6 col-12">
                         <div className="aboutthird-main-text">
-                            <p>
-                            At Biona we are committed to providing our members the resources and services necessary to enhance and advance their careers not only to improve and enrich their lives, but to help make greater contributions to their organizations and the science of food profession as a whole.
-
-In doing so, we all contribute to improving the sustainability of our global food supply.</p>
+                            <p>{t("about.9")}</p>
                         </div>
                     </div>
                 </div>

@@ -1682,6 +1682,296 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .navbar-right {
+    display: none;
+  }
+  .navbar-right ul {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .navbar-right ul li, .navbar-right ul a {
+    margin-top: 18px;
+    list-style-type: none;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .navbar-right ul li .right-user i, .navbar-right ul a .right-user i {
+    -webkit-transition: .1s;
+    transition: .1s;
+  }
+  .navbar-right ul li .right-user i:hover, .navbar-right ul a .right-user i:hover {
+    font-size: 18px;
+    color: white;
+  }
+  .navbar-right ul li .right-card i, .navbar-right ul a .right-card i {
+    font-size: 20px;
+  }
+  .navbar-right ul li .right-card .right-card-number, .navbar-right ul a .right-card .right-card-number {
+    font-size: 11px;
+    position: relative;
+    top: 6px;
+    margin-left: 2px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 4px;
+    color: white;
+  }
+  .navbar-right ul li .right-card .right-card-number:hover, .navbar-right ul a .right-card .right-card-number:hover {
+    color: white;
+  }
+  .navbar-right ul li .right-moon i, .navbar-right ul a .right-moon i {
+    -webkit-transition: .1s;
+    transition: .1s;
+    color: yellow;
+  }
+  .navbar-right ul li .right-moon i:hover, .navbar-right ul a .right-moon i:hover {
+    font-size: 18px;
+  }
+  .navbar-right ul li:hover, .navbar-right ul a:hover {
+    color: red;
+  }
+  .navbar-nav {
+    margin-top: 10px;
+  }
+  .navbar-nav .nav-item {
+    margin-right: 10px;
+  }
+  .navbar-nav .nav-item li, .navbar-nav .nav-item a {
+    color: white;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .navbar-nav .nav-item li:hover, .navbar-nav .nav-item a:hover {
+    color: red;
+  }
+  .navbar-nav .nav-item .active {
+    color: red;
+  }
+  .recent-category {
+    display: none;
+    width: 100%;
+  }
+  .recent-category ul {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    list-style: none;
+    padding-bottom: 13px;
+  }
+  .recent-category ul .active {
+    color: red !important;
+  }
+  .recent-category ul a {
+    cursor: pointer;
+    font-family: "Poppins", Sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.83em;
+    letter-spacing: 0px;
+    text-decoration: none;
+    color: white;
+  }
+  .recent-category ul a:hover {
+    color: red !important;
+  }
+  .guarantee {
+    margin-top: 50px;
+    background-image: url("../img/home_bg2.webp");
+    background-size: cover;
+    position: relative;
+  }
+  .guarantee .guarantee-title {
+    padding-top: 100px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .guarantee .guarantee-title .circle {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  .guarantee .guarantee-title h1 {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.3em;
+    letter-spacing: 0px;
+  }
+  .guarantee .guarantee-title p {
+    text-align: center;
+    color: #7E7E7E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.57em;
+    letter-spacing: 0px;
+  }
+  .guarantee .guarantee-box {
+    margin-top: 80px;
+    margin-left: 50px;
+    padding-bottom: 80px;
+  }
+  .guarantee .guarantee-box .guarantee-img img {
+    margin-left: 20px;
+    width: 150px;
+  }
+  .guarantee .guarantee-text h3 {
+    text-align: center;
+    width: 200px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.43em;
+  }
+  .footer {
+    background-color: #191919;
+  }
+  .footer .footer-box {
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+  .footer .footer-info {
+    padding-left: 5px;
+  }
+  .footer .footer-info .footer-media {
+    padding-top: 5px;
+  }
+  .footer .footer-info .footer-media i {
+    display: none;
+    margin-right: 18px;
+    background-color: #313131;
+    --icon-padding: 0.71em;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: #FFFFFF;
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+  }
+  .footer .footer-info .footer-media i:hover {
+    color: white;
+    cursor: pointer;
+    background-color: red;
+  }
+  .footer .footer-info p {
+    padding-top: 35px;
+    color: #BDBDBD !important;
+    font-family: "Poppins", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+  }
+  .footer .footer-nav {
+    padding-left: 10px;
+  }
+  .footer .footer-nav ul {
+    list-style: none;
+  }
+  .footer .footer-nav ul li .active {
+    color: red;
+  }
+  .footer .footer-nav ul li a {
+    font-family: "Poppins", Sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 3em;
+    letter-spacing: 0px;
+    text-decoration: none;
+    color: white;
+  }
+  .footer .footer-nav ul li a:hover {
+    color: red;
+  }
+  .footer .footer-mail h1 {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.56em;
+    letter-spacing: 0px;
+    margin-bottom: 12px;
+  }
+  .footer .footer-mail form {
+    display: none;
+    padding-bottom: 40px;
+  }
+  .footer .footer-mail form .inputmail {
+    width: 70%;
+    padding: 010px 015px 11px 015px;
+    border-radius: 0px 0px 0px 0px;
+    background-color: #313131;
+    color: #BDBDBD;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.57em;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: #FFFFFF;
+  }
+  .footer .footer-mail form .inputsubmit {
+    background-color: #FF0505;
+    padding: 012px 019px 012px 019px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.3em;
+    letter-spacing: 0px;
+    color: white;
+  }
+  .footer .footer-mail .footer-mail-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 10px;
+  }
+  .footer .footer-mail .footer-mail-box i {
+    color: red;
+    font-size: 25px;
+    padding-top: 14px;
+    margin-right: 15px;
+  }
+  .footer .footer-mail .footer-mail-box h6 {
+    color: #BDBDBD;
+    font-family: "Poppins", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.57em;
+  }
+  .footer .footer-mail .footer-mail-box h5 {
+    color: #FFFFFF;
+  }
   .move {
     padding-top: 50px;
   }
@@ -4361,6 +4651,7 @@
 .aboutfirst {
   background-image: url("../img/about_bg2.png");
   background-size: cover;
+  overflow: hidden;
 }
 
 .aboutfirst .let-food {
@@ -4442,6 +4733,7 @@
 }
 
 .aboutsecond {
+  overflow: hidden;
   overflow: hidden;
   background-color: white;
   padding-top: 80px;
@@ -4536,6 +4828,7 @@
 }
 
 .aboutthird {
+  overflow: hidden;
   margin-top: 30px;
   padding-top: 50px;
   background-color: #1d1d1d;
@@ -4618,6 +4911,7 @@
 }
 
 .aboutfirth {
+  overflow: hidden;
   margin-top: 50px;
   padding-bottom: 30px;
   background-color: white;

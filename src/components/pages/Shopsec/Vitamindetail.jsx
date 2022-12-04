@@ -5,7 +5,14 @@ import ReactStars from 'react-stars'
 import { Link } from 'react-router-dom';
 import products from '../../data/productdata';
 import ProductdetailItem from './ProductdetailItem';
+import  '../../data/langConfig/i18next';
+import { useTranslation } from "react-i18next";
 const ProductDetail = () => {
+    const { t, i18n } = useTranslation();
+
+const langClick = (lang) => {
+  i18n.changeLanguage(lang);
+};
     const {productId} = useParams()
     const thisProduct = productsData.find(prod=>prod.id == productId)
     return (
@@ -30,7 +37,7 @@ const ProductDetail = () => {
                             <h4>${thisProduct.price}</h4>
                         </div>
                         <p>{thisProduct.desc}</p>
-                        <button><Link to={"/payment"} className="shopbutton" >Buy Now</Link></button>
+                        <button><Link to={"/payment"} className="shopbutton" >{t("cart.10")}</Link></button>
                         <h5>Arriving:{thisProduct.arriving} December 2022</h5>
                         <h5>Category:{thisProduct.category}</h5>
                         </div>

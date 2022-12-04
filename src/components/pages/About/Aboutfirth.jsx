@@ -1,8 +1,14 @@
 import React from 'react'
 import nationimg from "../../assets/img/home3_img2.webp"
 import { Link } from 'react-router-dom'
+import  '../../data/langConfig/i18next';
+import { useTranslation } from "react-i18next";
 const Aboutfirth = () => {
-    
+    const { t, i18n } = useTranslation();
+
+    const langClick = (lang) => {
+      i18n.changeLanguage(lang);
+    };
       
               
   return (
@@ -13,9 +19,9 @@ const Aboutfirth = () => {
                 <div data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom" className="nation-text">
                     <div className="circle"></div>
-                    <h1>One nutrition, One nation.</h1>
-                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising born and I will give you a complete.</p>
-                    <button><Link className='buttonlink' to={'/shop'}> Shop Now</Link></button>
+                    <h1>{t("about.11")}</h1>
+                    <p>{t("about.12")}</p>
+                    <button><Link className='buttonlink' to={'/shop'}>{t("about.13")}</Link></button>
                 </div>
                 </div>
                 <div className="col-lg-6 col-12">

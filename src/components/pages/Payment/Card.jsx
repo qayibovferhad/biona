@@ -4,7 +4,14 @@ import ReactStars from 'react-stars'
 import { Link } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import  '../../data/langConfig/i18next';
+import { useTranslation } from "react-i18next";
 const Card = (props) => {
+  const { t, i18n } = useTranslation();
+
+  const langClick = (lang) => {
+    i18n.changeLanguage(lang);
+  };
   const {
     isEmpty,
     items,
@@ -53,11 +60,11 @@ const deleted = () => toast.info("Deleted", {
     <div className="container">
                 <div className="card-text">
     <div className="circle"></div>
-    <h1>My Cart</h1>
+    <h1>{t("cart.0")}</h1>
     <div className="circlev2">
     <i class="fa-solid fa-basket-shopping"></i>
-    <p>Your cart is currently empty.</p>
-    <button><Link className='buttonlink' to="/shop">RETURN TO SHOP</Link></button>
+    <p>{t("cart.1")}</p>
+    <button><Link className='buttonlink' to="/shop">{t("cart.2")}</Link></button>
      </div>
      </div>
     </div>
@@ -69,7 +76,7 @@ const deleted = () => toast.info("Deleted", {
      <div className="container">
       <div className="card-text">
         <div className="circle"></div>
-        <h1>My Cart</h1>
+        <h1>{t("cart.0")}</h1>
       </div>
       <div className="row">
         {items.map((item,key)=>{
@@ -110,16 +117,16 @@ const deleted = () => toast.info("Deleted", {
                         <div className="card-end">
                         <div className="card-end-text">
                          <div className="container">
-                         <h1>Order Summary</h1>
-                          <h1>Total Items: {totalItems}</h1>
-                           <h1>Total Price: {cartTotal.toFixed(2)}$</h1>
-                           <h1>Tax: {(cartTotal*2/100).toFixed(2)}$</h1>
-                           <h1>Shipping & handling: {(cartTotal*5/100).toFixed(2)}$</h1>
-                           <h1>General Discount: -{(cartTotal*15/100).toFixed(2)}$</h1>
-                           <h1>Order Total: {(cartTotal-cartTotal*15/100 + (cartTotal*2/100) +(cartTotal*5/100)).toFixed(2)}$</h1>
+                         <h1>{t("cart.3")}</h1>
+                          <h1>{t("cart.4")}: {totalItems}</h1>
+                           <h1>{t("cart.5")}: {cartTotal.toFixed(2)}$</h1>
+                           <h1>{t("cart.6")}: {(cartTotal*2/100).toFixed(2)}$</h1>
+                           <h1>{t("cart.7")}: {(cartTotal*5/100).toFixed(2)}$</h1>
+                           <h1>{t("cart.8")}: -{(cartTotal*15/100).toFixed(2)}$</h1>
+                           <h1>{t("cart.11")}: {(cartTotal-cartTotal*15/100 + (cartTotal*2/100) +(cartTotal*5/100)).toFixed(2)}$</h1>
                            <div className="card-end-buttons">
-                             <Link to={"/payment"}><button>Buy Now</button></Link>
-                         <button onClick={()=>{emptyCart()}}>Cancel Order</button> 
+                             <Link to={"/payment"}><button>{t("cart.9")}</button></Link>
+                         <button onClick={()=>{emptyCart()}}>{t("cart.10")}</button> 
                            </div>
                          </div>
                         </div>

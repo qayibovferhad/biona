@@ -3,25 +3,16 @@ import { useState,useRef } from 'react'
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import users from "../../data/login"
-
+import  '../../data/langConfig/i18next';
+import { useTranslation } from "react-i18next";
 const Login = ({ user, setUser }) => {
-//     let navigate = useNavigate();
-// const[username, setUser] = useState();
-// const[password, setPass] = useState();
-const [alert, setAlert] = useState();
-// const authenticationLogin = (e) => {
-//     e.preventDefault();
+  const { t, i18n } = useTranslation();
 
-//     if (!username || !password) {
-//       setAlert("Fill In The Boxes");
-//     } else {
-//       if (username === users[0].username && password === users[0].password) {
-//         navigate("/");
-//       } else {
-//         setAlert("Wrong password or username");
-//       }
-//     }
-//   };
+  const langClick = (lang) => {
+    i18n.changeLanguage(lang);
+  };
+const [alert, setAlert] = useState();
+
 
 const history = useNavigate();
   const name = useRef();
@@ -34,7 +25,7 @@ const history = useNavigate();
       password.current.value === "ferhad1905"
     ) {
       localStorage.setItem("emailData", "Ferhad");
-      localStorage.setItem("passwordData", "ferhad123");
+      localStorage.setItem("passwordData", "ferhad1905");
       history("/");
     }
     else {
@@ -46,7 +37,7 @@ const history = useNavigate();
     <div className="container">
     <div className="login-text">
         <div className="circle"></div>
-        <h2>Login</h2>
+        <h2>{t("Login.0")}</h2>
       </div>
       <div className="d-flex align-items-center justify-content-center">
         <h6 className='col-6 mb-3 text-center alert-danger'>{alert}</h6>
@@ -55,20 +46,20 @@ const history = useNavigate();
         <form onSubmit={handleSubmit} className="col-6 ">
           <div className="mb-3">
 
-                  <label for="text"  >Username</label>
+                  <label for="text"  >{t("Login.1")}</label>
              <input id='text' ref={name} type="text"  />
   
           </div>
           <div className="mb-3">
-          <label for="passwordHelp"  >Password</label>
+          <label for="passwordHelp"  >{t("Login.2")}</label>
              <input id='passwordHelp' ref={password} className='textinput' type="password"  />
          
        
        
           </div>
             
-          <button type="submit"> Submit </button>
-          <h6>Don't have an account? <Link to={"/register"}>Register</Link></h6>
+          <button type="submit"> {t("Login.3")} </button>
+          <h6>{t("Login.4")} <Link to={"/register"}>{t("Login.5")}</Link></h6>
         </form>
       </div>
     </div>

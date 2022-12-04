@@ -14,7 +14,7 @@
         "3":"Recent Products",
         "4":"Add to Cart",
         "5":"Best Offers",
-        "6":"But I must explain to you how all this mistaken idea of denouncing pleasure",
+        "6":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising born and I will give you a complete.",
         "7":"30-day Money-Back Guarantee",
         "8":"If you are not 100% satisfied, tell us within 30 days, and get your money back.",
         "9":"Deal Of The Days",
@@ -24,7 +24,18 @@
         "13":"hours",
         "14":"minutes",
         "15":"seconds",
-        "16":" One nutrition, One nation."
+        "16":" One nutrition, One nation.",
+        "17":"Actual News",
+        "18":"Looking for something new? Get inspired with our recommended collections",
+        "19":" Read More",
+        "20":"Our Partner",
+        "21":" *These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose.",
+        "22":"Sign up for the newsletter",
+        "23":"Subscribe",
+        "24":" Read More",
+        "25":"Our Partner",
+        "26":" Contact for a Free Consultation:",
+        "27":"Promotions of Week"
        
         
 
@@ -38,6 +49,71 @@
         "4":"Nutrition",
         "5":"Vitamins",
         "6":"Snacks"
+        
+    },
+    "contact": {
+        "0":"Contact Us",
+        "1":  "Name",
+        "2":"Your first name",
+        "3":"E-mail",
+        "4":"Your email",
+        "5":"Phone",
+        "6":"Your phone",
+        "7":  "Country/Region",
+        "8":"Type your message",
+        "9":"Address",
+        "10":"Email Address",
+        "11":"Working Hours"
+
+        
+    },
+    "cart": {
+        "0":"My Cart",
+        "1":  "Your cart is currently empty.",
+        "2":"Return to shop",
+        "3":"Order Summary",
+        "4":"Total Items",
+        "5":"Total Price",
+        "6":"Tax",
+        "7":"Shipping & handling",
+        "8":"General Discount",
+        "9":"Buy Now",
+        "10":"Cancel Order",
+        "11":"Order Total"
+
+        
+    },
+    "Login": {
+        "0":"Login",
+        "1":  "Username",
+        "2":"Password",
+        "3":"Submit",
+        "4":"Don't have an account? ",
+        "5":"Register"
+ 
+
+        
+    },
+
+
+    "about": {
+        "0":"Let food be thy medicine and medicine be thy food.",
+        "1":  "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
+        "2":"The first wealth is health.",
+        "3":"Our responsibility",
+        "4":"As a collective, Biona community works together to advance the science of food and one another through the following shared values:",
+        "5":"Since 1939, the Institute of Biona has been a forum for passionate science of food professionals and technologists to collaborate, learn, and contribute all with the goal of inspiring transforming collective scientific knowledge into innovative solutions for the benefit of all people around the world.As a scientific community grounded in purpose, Biona feeds the minds that feed the world.",
+        "6":"Our Partners",
+        "7":"Our responsibility",
+        "8":"As a collective, Biona community works together to advance the science of food and one another through the following shared values:",
+        "9":"At Biona we are committed to providing our members the resources and services necessary to enhance and advance their careers not only to improve and enrich their lives, but to help make greater contributions to their organizations and the science of food profession as a whole. In doing so, we all contribute to improving the sustainability of our global food supply.",
+        "10":"Since 1939, the Institute of Biona has been a forum for passionate science of food professionals and technologists to collaborate, learn, and contribute all with the goal of inspiring transforming collective scientific knowledge into innovative solutions for the benefit of all people around the world.As a scientific community grounded in purpose, Biona feeds the minds that feed the world.",
+        "11":"One Nutrition, One Nation.",
+        "12":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising born and I will give you a complete.",
+        "13":"Shop Now"
+
+ 
+
         
     }
 }

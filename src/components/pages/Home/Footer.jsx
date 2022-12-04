@@ -1,8 +1,14 @@
 import React from 'react'
 import footer from "../../assets/img/footer_logo.svg"
 import {Link} from "react-router-dom"
-
+import  '../../data/langConfig/i18next';
+import { useTranslation } from "react-i18next";
 const Footer = () => {
+  const { t, i18n } = useTranslation();
+
+  const langClick = (lang) => {
+    i18n.changeLanguage(lang);
+  };
   return (
     <section className='footer'>
      <div className="container">
@@ -18,7 +24,7 @@ const Footer = () => {
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-youtube"></i>
             </div>
-            <p>*These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose.</p>
+            <p>{t("home.21")}</p>
             <p>Zemez © . All rights reserved.</p>
         </div>
         </div>
@@ -26,25 +32,25 @@ const Footer = () => {
             <div className="col-lg-4 d-lg-block d-none col-12 ">
             <div className="footer-nav footer-box">
               <ul>
-                <li ><a href="#" className='active'>Home</a></li>
-                <li><Link to="/shop">Shop</Link></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><Link to="/contact">Contact Us</Link></li>
+                <li ><Link to="/">{t("navbar.1")}</Link></li>
+                <li><Link to="/shop">{t("navbar.2")}</Link></li>
+                <li><Link to="/blog">{t("navbar.3")}</Link></li>
+                <li><Link to="/about">{t("navbar.4")}</Link></li>
+                <li><Link to="/contact">{t("navbar.5")}</Link></li>
               </ul>
             </div>
             </div>
             <div className="col-lg-4 col-12">
               <div className="footer-mail footer-box">
-                <h1>Sign up for the newsletter</h1>
+                <h1>{t("home.22")}</h1>
                 <form>
                   <input type="mail" className='inputmail' placeholder='Enter Email' />
-                  <button type='submit' className='inputsubmit'>Subscribe</button>
+                  <button type='submit' className='inputsubmit'>{t("home.23")}</button>
                 </form>
                 <div className="footer-mail-box">
                 <i class="fa-solid fa-phone"></i>
                 <div className="footer-mail-box-text">
-                <h6>Contact for a Free Consultation:</h6>
+                <h6>{t("home.26")}</h6>
                 <h5>+18 800 555 35 35</h5>
                 </div>
                 

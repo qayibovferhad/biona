@@ -3,7 +3,14 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import data from "../../data/data1";
+import  '../../data/langConfig/i18next';
+import { useTranslation } from "react-i18next";
 const Partner = () => {
+  const { t, i18n } = useTranslation();
+
+  const langClick = (lang) => {
+    i18n.changeLanguage(lang);
+  };
     const options = {
         margin: 30,
         responsiveClass: true,
@@ -30,7 +37,7 @@ const Partner = () => {
   return (
     <section className="carouselsection">
       <div className="carousel-title">
-        <h3>Our Partner</h3>
+        <h3>{t("home.20")}</h3>
       </div>
       <div className="container">
       <OwlCarousel className="carousel slider-items owl-carousel" {...options}>

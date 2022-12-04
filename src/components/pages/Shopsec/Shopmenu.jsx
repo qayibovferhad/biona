@@ -2,9 +2,14 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import ProductsData from '../../data/wheyprotein';
 import ReactStars from 'react-stars'
-
+import  '../../data/langConfig/i18next';
+import { useTranslation } from "react-i18next";
 const Shopmenu = (props) => {
+  const { t, i18n } = useTranslation();
 
+  const langClick = (lang) => {
+    i18n.changeLanguage(lang);
+  };
 
     const products = ProductsData.map(product =>{
         return (
@@ -23,7 +28,7 @@ const Shopmenu = (props) => {
                <ReactStars count={product.count} value = {0} color1={"red"} color2= {"red"} size={22} edit={false} />
         
                 <div className="shopmenu-button">
-               <Link to={`/shopmenu/${product.id}`}> <button  className='shopbutton'>Buy Now </button></Link>
+               <Link to={`/shopmenu/${product.id}`}> <button  className='shopbutton'>{t("cart.9")} </button></Link>
                
                </div>
             </div>
@@ -37,7 +42,7 @@ const Shopmenu = (props) => {
             <div className="container">
             <div className="shopmenu-text">
             <div className="circle"></div>
-            <h2>Whey Protein</h2>
+            <h2>{t("Shop.1")}</h2>
             </div>
             <div className="shopmenu-products">
                 <div className="container">

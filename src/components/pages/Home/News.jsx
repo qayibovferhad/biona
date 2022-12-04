@@ -1,16 +1,22 @@
 import React from 'react'
 import blogdata from '../../data/blogdata'
-
+import  '../../data/langConfig/i18next';
+import { useTranslation } from "react-i18next";
 
 
 const News = () => {
+    const { t, i18n } = useTranslation();
+
+    const langClick = (lang) => {
+      i18n.changeLanguage(lang);
+    };
   return (
     <section className='news'>
         <div className="container">
             <div className="news-title">
             <div className=" col-12 circle"></div>
-                <h2>Actual News</h2>
-                <p>Looking for something new? Get inspired with our recommended collections</p>
+                <h2>{t("home.17")}</h2>
+                <p>{t("home.18")}</p>
             </div>
             <div className="row">
                 {blogdata.blogs.map((item,index)=>{
@@ -24,7 +30,7 @@ const News = () => {
                            <div className="newsitem-text">
                                <h4>{item.title}</h4>
                                <p>{item.para}</p>
-                               <button>Read More <i class="fa-solid fa-arrow-right"></i></button>
+                               <button>{t("home.19")} <i class="fa-solid fa-arrow-right"></i></button>
                            </div>
                         </div>
                        </div>

@@ -1,15 +1,21 @@
 import React from 'react'
 import Aboutsecondcard from './Aboutsecondcard'
-
+import  '../../data/langConfig/i18next';
+import { useTranslation } from "react-i18next";
 const Aboutsecond = () => {
+  const { t, i18n } = useTranslation();
+
+  const langClick = (lang) => {
+    i18n.changeLanguage(lang);
+  };
   return (
     <>
     <section className="aboutsecond">
     <div className="container">
         <div className="aboutsecond-text">
             <div className="circle"></div>
-            <h1>Our responsibility</h1>
-            <p>As a collective, Biona community works together to advance the science of food and one another through the following shared values:</p>
+            <h1>{t("about.7")}</h1>
+            <p>{t("about.8")}</p>
 
         </div>
         </div>

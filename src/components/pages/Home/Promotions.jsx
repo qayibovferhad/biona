@@ -8,10 +8,16 @@ import React, { useState, useRef, useEffect } from 'react'
 import Countdown from 'react-countdown';
 import PromotionsProductItem from './PromotionsProductItem';
 import { useCart } from 'react-use-cart'
-
+import  '../../data/langConfig/i18next';
+import { useTranslation } from "react-i18next";
 const Completionist = () => <span>Promotion Is Ended</span>;
 
 const Promotions = () => {
+  const { t, i18n } = useTranslation();
+
+  const langClick = (lang) => {
+    i18n.changeLanguage(lang);
+  };
     const renderer = ({ days,hours, minutes, seconds, completed }) => {
      
         if (completed) {
@@ -23,19 +29,19 @@ const Promotions = () => {
             <div className="counter-clock">
                         <div className="clock-day clock-box">
                             <h3>{0+"" + days}</h3>
-                            <h5>days</h5>
+                            <h5>{t("home.12")}</h5>
                         </div>
                         <div className="clock-hour clock-box">
                             <h3>{hours}</h3>
-                            <h5>hours</h5>
+                            <h5>{t("home.13")}</h5>
                         </div>
                         <div className="clock-min clock-box">
                             <h3>{minutes}</h3>
-                            <h5>minutes</h5>
+                            <h5>{t("home.14")}</h5>
                         </div>
                         <div className="clock-sec clock-box">
                             <h3> {seconds}</h3>
-                            <h5>seconds</h5>
+                            <h5>{t("home.15")}</h5>
                         </div>
                        </div></span>;
         }
@@ -72,7 +78,7 @@ const Promotions = () => {
                       <div className="promotions-text">
                       <div className='circle'></div>
              
-                        <h1>Promotions of the week</h1> 
+                        <h1>{t("home.25")}</h1> 
                         <Countdown date={Date.now() + 345444345} renderer={renderer}/>
                      
                       </div>

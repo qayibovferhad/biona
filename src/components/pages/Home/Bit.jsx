@@ -3,11 +3,16 @@ import bitimg from "../../assets/img/v6_img2.webp"
 import CountUp from 'react-countup';
 
 import VisibilitySensor from "react-visibility-sensor";
-
+import  '../../data/langConfig/i18next';
+import { useTranslation } from "react-i18next";
 
 const Bit = () => {
   const [focus, setFocus] = React.useState(false);
+  const { t, i18n } = useTranslation();
 
+  const langClick = (lang) => {
+    i18n.changeLanguage(lang);
+  };
   return (
     <section data-aos="fade-up"
     data-aos-anchor-placement="top-bottom"  className='bit'>
@@ -16,12 +21,12 @@ const Bit = () => {
                 <div className="col-lg-6 col-12">
                 <div className="bit-text">
            <div className="circle"></div>
-           <h1>Run a bit to be fit.</h1>
-           <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.</p>
+           <h1>{t("home.10")}</h1>
+           <p>{t("home.6")}</p>
            <div className="bit-textboxes">
             <div className="bit-box">
            
-                <h4> <CountUp start={focus ? 0 : null} end={150} duration={4} redraw={true}>
+                <h4> <CountUp start={focus ? 0 : null} end={150} duration={3} redraw={true}>
             {({ countUpRef }) => (
                 <VisibilitySensor onChange={(isVisible) => {
                     if (isVisible) { setFocus(true); }
@@ -35,7 +40,7 @@ const Bit = () => {
             </div>
             <div className="bit-box">
                 <h4>
-                     <CountUp start={focus ? 0 : null} end={230} duration={6} redraw={true}>
+                     <CountUp start={focus ? 0 : null} end={230} duration={4} redraw={true}>
             {({ countUpRef }) => (
                 <VisibilitySensor onChange={(isVisible) => {
                     if (isVisible) { setFocus(true); }
