@@ -1,17 +1,16 @@
-@import 'home';
-@import 'card';
-@import 'shop';
-@import 'about';
-@import 'blog';
-@import 'login';
-@import 'register';
-@import 'productdetailpayment';
-@import 'shopmenu';
-body{
-    background-color: #f3f3f3;
-       }
-    
-       .light{
-        background-color: black;
-       }
-  
+@import "home";
+@import "card";
+@import "shop";
+@import "about";
+@import "blog";
+@import "login";
+@import "register";
+@import "productdetailpayment";
+@import "shopmenu";
+body {
+  background-color: #f3f3f3;
+}
+
+.light {
+  background-color: black;
+}

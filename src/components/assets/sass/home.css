@@ -12,14 +12,16 @@
   margin-right: 10px;
 }
 
-.navbar .navbar-nav .nav-item li, .navbar .navbar-nav .nav-item a {
+.navbar .navbar-nav .nav-item li,
+.navbar .navbar-nav .nav-item a {
   color: white;
   font-family: "Poppins", Sans-serif;
   font-size: 15px;
   font-weight: 500;
 }
 
-.navbar .navbar-nav .nav-item li:hover, .navbar .navbar-nav .nav-item a:hover {
+.navbar .navbar-nav .nav-item li:hover,
+.navbar .navbar-nav .nav-item a:hover {
   color: red;
 }
 
@@ -40,7 +42,8 @@
       justify-content: space-around;
 }
 
-.navbar .navbar-right ul li, .navbar .navbar-right ul a {
+.navbar .navbar-right ul li,
+.navbar .navbar-right ul a {
   margin-top: 18px;
   list-style-type: none;
   margin-right: 10px;
@@ -51,21 +54,25 @@
   font-weight: 500;
 }
 
-.navbar .navbar-right ul li .right-user i, .navbar .navbar-right ul a .right-user i {
-  -webkit-transition: .1s;
-  transition: .1s;
+.navbar .navbar-right ul li .right-user i,
+.navbar .navbar-right ul a .right-user i {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
-.navbar .navbar-right ul li .right-user i:hover, .navbar .navbar-right ul a .right-user i:hover {
+.navbar .navbar-right ul li .right-user i:hover,
+.navbar .navbar-right ul a .right-user i:hover {
   font-size: 18px;
   color: white;
 }
 
-.navbar .navbar-right ul li .right-card i, .navbar .navbar-right ul a .right-card i {
+.navbar .navbar-right ul li .right-card i,
+.navbar .navbar-right ul a .right-card i {
   font-size: 20px;
 }
 
-.navbar .navbar-right ul li .right-card .right-card-number, .navbar .navbar-right ul a .right-card .right-card-number {
+.navbar .navbar-right ul li .right-card .right-card-number,
+.navbar .navbar-right ul a .right-card .right-card-number {
   font-size: 11px;
   position: relative;
   top: 6px;
@@ -76,21 +83,25 @@
   color: white;
 }
 
-.navbar .navbar-right ul li .right-card .right-card-number:hover, .navbar .navbar-right ul a .right-card .right-card-number:hover {
+.navbar .navbar-right ul li .right-card .right-card-number:hover,
+.navbar .navbar-right ul a .right-card .right-card-number:hover {
   color: white;
 }
 
-.navbar .navbar-right ul li .right-moon i, .navbar .navbar-right ul a .right-moon i {
-  -webkit-transition: .1s;
-  transition: .1s;
+.navbar .navbar-right ul li .right-moon i,
+.navbar .navbar-right ul a .right-moon i {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
   color: yellow;
 }
 
-.navbar .navbar-right ul li .right-moon i:hover, .navbar .navbar-right ul a .right-moon i:hover {
+.navbar .navbar-right ul li .right-moon i:hover,
+.navbar .navbar-right ul a .right-moon i:hover {
   font-size: 18px;
 }
 
-.navbar .navbar-right ul li:hover, .navbar .navbar-right ul a:hover {
+.navbar .navbar-right ul li:hover,
+.navbar .navbar-right ul a:hover {
   color: red;
 }
 
@@ -117,7 +128,7 @@
 }
 
 .hero .main .main-left h1 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", Sans-serif;
   font-size: 76px;
   font-weight: 600;
@@ -126,7 +137,7 @@
 }
 
 .hero .main .main-left h1 span {
-  color: #76CE16;
+  color: #76ce16;
 }
 
 .hero .main .main-left button {
@@ -178,11 +189,11 @@
 .power .poweritem-box .solid {
   font-size: 50px;
   margin-bottom: 30px;
-  color: #76CE16;
+  color: #76ce16;
 }
 
 .power .poweritem-box h4 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", Sans-serif;
   font-size: 21px;
   font-weight: 600;
@@ -192,7 +203,7 @@
 }
 
 .power .poweritem-box p {
-  color: #A1A1A1;
+  color: #a1a1a1;
   font-family: "Poppins", Sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -218,7 +229,7 @@
 }
 
 .strong {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   background-image: url("../img/home_bg.webp");
   background-size: cover;
   height: auto;
@@ -315,7 +326,7 @@
 }
 
 .guarantee .guarantee-title h1 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", Sans-serif;
   font-size: 36px;
   font-weight: 600;
@@ -325,7 +336,7 @@
 
 .guarantee .guarantee-title p {
   text-align: center;
-  color: #7E7E7E;
+  color: #7e7e7e;
   font-family: "Poppins", Sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -348,7 +359,7 @@
   text-align: center;
   width: 200px;
   margin-bottom: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", Sans-serif;
   font-size: 21px;
   font-weight: 600;
@@ -421,13 +432,13 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 1.56em;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 20px;
   margin-left: 20px;
 }
 
 .news .newsitem-box .newsitem-text p {
-  color: #BDBDBD;
+  color: #bdbdbd;
   font-family: "Poppins", Sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -481,7 +492,7 @@
   --icon-padding: 0.71em;
   border-style: solid;
   border-width: 0px 0px 0px 0px;
-  border-color: #FFFFFF;
+  border-color: #ffffff;
   padding: 15px;
   font-size: 16px;
   color: white;
@@ -495,7 +506,7 @@
 
 .footer .footer-info p {
   padding-top: 35px;
-  color: #BDBDBD !important;
+  color: #bdbdbd !important;
   font-family: "Poppins", Sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -530,7 +541,7 @@
 }
 
 .footer .footer-mail h1 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", Sans-serif;
   font-size: 18px;
   font-weight: 500;
@@ -548,18 +559,18 @@
   padding: 010px 015px 11px 015px;
   border-radius: 0px 0px 0px 0px;
   background-color: #313131;
-  color: #BDBDBD;
+  color: #bdbdbd;
   font-family: "Poppins", Sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.57em;
   border-style: solid;
   border-width: 0px 0px 0px 0px;
-  border-color: #FFFFFF;
+  border-color: #ffffff;
 }
 
 .footer .footer-mail form .inputsubmit {
-  background-color: #FF0505;
+  background-color: #ff0505;
   padding: 012px 019px 012px 019px;
   margin: 0px 0px 0px 0px;
   border-radius: 0px 0px 0px 0px;
@@ -587,7 +598,7 @@
 }
 
 .footer .footer-mail .footer-mail-box h6 {
-  color: #BDBDBD;
+  color: #bdbdbd;
   font-family: "Poppins", Sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -595,7 +606,7 @@
 }
 
 .footer .footer-mail .footer-mail-box h5 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .pictures {
@@ -636,8 +647,8 @@
   opacity: 0;
   background-color: red;
   z-index: 3;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -736,7 +747,7 @@
 }
 
 .move .move-box .move-text h1 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", Sans-serif;
   font-size: 48px;
   font-weight: 600;
@@ -745,7 +756,7 @@
 }
 
 .move .move-box .move-text h1 span {
-  color: #76CE16;
+  color: #76ce16;
   font-family: "Poppins", Sans-serif;
   font-size: 48px;
   font-weight: 600;
@@ -754,7 +765,7 @@
 }
 
 .move .move-box .move-text h2 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", Sans-serif;
   font-size: 48px;
   font-weight: 600;
@@ -885,8 +896,8 @@
   position: absolute;
   top: 0;
   opacity: 0;
-  -webkit-transition: .1s;
-  transition: .1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .recent .recent-products .recent-product .recent-img .recent-top {
@@ -894,7 +905,7 @@
   top: 0;
   left: 0;
   color: #ffffff;
-  background-color: #FF0505;
+  background-color: #ff0505;
 }
 
 .recent .recent-products .recent-product .recent-img .recent-top span {
@@ -911,8 +922,8 @@
   padding-top: 30px;
   padding-bottom: 30px;
   opacity: 1;
-  -webkit-transition: .1s;
-  transition: .1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .recent .recent-products .recent-product .recent-title {
@@ -944,7 +955,7 @@
   font-weight: 500;
   line-height: 1.56em;
   letter-spacing: 0px;
-  color: #FF0505;
+  color: #ff0505;
   text-align: center;
 }
 
@@ -1056,8 +1067,8 @@
   position: absolute;
   top: 0;
   opacity: 0;
-  -webkit-transition: .1s;
-  transition: .1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .offers .offers-product .offers-img .offers-top {
@@ -1065,7 +1076,7 @@
   top: 0;
   left: 0;
   color: #ffffff;
-  background-color: #FF0505;
+  background-color: #ff0505;
 }
 
 .offers .offers-product .offers-img .offers-top span {
@@ -1082,8 +1093,8 @@
   padding-bottom: 10px;
   display: block;
   opacity: 1;
-  -webkit-transition: .1s;
-  transition: .1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
   width: 90%;
 }
 
@@ -1116,7 +1127,7 @@
   font-weight: 500;
   line-height: 1.56em;
   letter-spacing: 0px;
-  color: #FF0505;
+  color: #ff0505;
   text-align: center;
 }
 
@@ -1224,7 +1235,7 @@
   top: 0;
   left: 0;
   color: #ffffff;
-  background-color: #FF0505;
+  background-color: #ff0505;
 }
 
 .deal .deal-product .deal-img .deal-top span {
@@ -1242,8 +1253,8 @@
   width: 87%;
   display: block;
   opacity: 1;
-  -webkit-transition: .1s;
-  transition: .1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .deal .deal-product .deal-title {
@@ -1275,7 +1286,7 @@
   font-weight: 500;
   line-height: 1.56em;
   letter-spacing: 0px;
-  color: #FF0505;
+  color: #ff0505;
   text-align: center;
 }
 
@@ -1414,8 +1425,8 @@
   position: absolute;
   top: 0;
   opacity: 0;
-  -webkit-transition: .1s;
-  transition: .1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .promotions .promotions-product .promotions-img .promotions-top {
@@ -1423,7 +1434,7 @@
   top: 0;
   left: 0;
   color: #ffffff;
-  background-color: #FF0505;
+  background-color: #ff0505;
 }
 
 .promotions .promotions-product .promotions-img .promotions-top span {
@@ -1441,8 +1452,8 @@
   width: 87%;
   display: block;
   opacity: 1;
-  -webkit-transition: .1s;
-  transition: .1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .promotions .promotions-product .promotions-title {
@@ -1474,7 +1485,7 @@
   font-weight: 500;
   line-height: 1.56em;
   letter-spacing: 0px;
-  color: #FF0505;
+  color: #ff0505;
   text-align: center;
 }
 
@@ -1557,7 +1568,7 @@
 }
 
 .bit .bit-text .bit-textboxes .bit-box h4 {
-  color: #FF0505;
+  color: #ff0505;
   font-family: "Poppins", Sans-serif;
   font-size: 44px;
   font-weight: 600;
@@ -1617,7 +1628,7 @@
 }
 
 .ever .ever-text .ever-textbox .ever-textbox-title h6 {
-  color: #7E7E7E;
+  color: #7e7e7e;
   font-family: "Poppins", Sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -1693,7 +1704,8 @@
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .navbar-right ul li, .navbar-right ul a {
+  .navbar-right ul li,
+  .navbar-right ul a {
     margin-top: 18px;
     list-style-type: none;
     margin-right: 10px;
@@ -1703,18 +1715,22 @@
     font-size: 17px;
     font-weight: 500;
   }
-  .navbar-right ul li .right-user i, .navbar-right ul a .right-user i {
-    -webkit-transition: .1s;
-    transition: .1s;
+  .navbar-right ul li .right-user i,
+  .navbar-right ul a .right-user i {
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
   }
-  .navbar-right ul li .right-user i:hover, .navbar-right ul a .right-user i:hover {
+  .navbar-right ul li .right-user i:hover,
+  .navbar-right ul a .right-user i:hover {
     font-size: 18px;
     color: white;
   }
-  .navbar-right ul li .right-card i, .navbar-right ul a .right-card i {
+  .navbar-right ul li .right-card i,
+  .navbar-right ul a .right-card i {
     font-size: 20px;
   }
-  .navbar-right ul li .right-card .right-card-number, .navbar-right ul a .right-card .right-card-number {
+  .navbar-right ul li .right-card .right-card-number,
+  .navbar-right ul a .right-card .right-card-number {
     font-size: 11px;
     position: relative;
     top: 6px;
@@ -1724,18 +1740,22 @@
     padding: 4px;
     color: white;
   }
-  .navbar-right ul li .right-card .right-card-number:hover, .navbar-right ul a .right-card .right-card-number:hover {
+  .navbar-right ul li .right-card .right-card-number:hover,
+  .navbar-right ul a .right-card .right-card-number:hover {
     color: white;
   }
-  .navbar-right ul li .right-moon i, .navbar-right ul a .right-moon i {
-    -webkit-transition: .1s;
-    transition: .1s;
+  .navbar-right ul li .right-moon i,
+  .navbar-right ul a .right-moon i {
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
     color: yellow;
   }
-  .navbar-right ul li .right-moon i:hover, .navbar-right ul a .right-moon i:hover {
+  .navbar-right ul li .right-moon i:hover,
+  .navbar-right ul a .right-moon i:hover {
     font-size: 18px;
   }
-  .navbar-right ul li:hover, .navbar-right ul a:hover {
+  .navbar-right ul li:hover,
+  .navbar-right ul a:hover {
     color: red;
   }
   .navbar-nav {
@@ -1744,13 +1764,15 @@
   .navbar-nav .nav-item {
     margin-right: 10px;
   }
-  .navbar-nav .nav-item li, .navbar-nav .nav-item a {
+  .navbar-nav .nav-item li,
+  .navbar-nav .nav-item a {
     color: white;
     font-family: "Poppins", Sans-serif;
     font-size: 15px;
     font-weight: 500;
   }
-  .navbar-nav .nav-item li:hover, .navbar-nav .nav-item a:hover {
+  .navbar-nav .nav-item li:hover,
+  .navbar-nav .nav-item a:hover {
     color: red;
   }
   .navbar-nav .nav-item .active {
@@ -1815,7 +1837,7 @@
     margin-bottom: 15px;
   }
   .guarantee .guarantee-title h1 {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "Poppins", Sans-serif;
     font-size: 36px;
     font-weight: 600;
@@ -1824,7 +1846,7 @@
   }
   .guarantee .guarantee-title p {
     text-align: center;
-    color: #7E7E7E;
+    color: #7e7e7e;
     font-family: "Poppins", Sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -1844,7 +1866,7 @@
     text-align: center;
     width: 200px;
     margin-bottom: 0px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "Poppins", Sans-serif;
     font-size: 21px;
     font-weight: 600;
@@ -1870,7 +1892,7 @@
     --icon-padding: 0.71em;
     border-style: solid;
     border-width: 0px 0px 0px 0px;
-    border-color: #FFFFFF;
+    border-color: #ffffff;
     padding: 15px;
     font-size: 16px;
     color: white;
@@ -1882,7 +1904,7 @@
   }
   .footer .footer-info p {
     padding-top: 35px;
-    color: #BDBDBD !important;
+    color: #bdbdbd !important;
     font-family: "Poppins", Sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -1911,7 +1933,7 @@
     color: red;
   }
   .footer .footer-mail h1 {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "Poppins", Sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -1928,17 +1950,17 @@
     padding: 010px 015px 11px 015px;
     border-radius: 0px 0px 0px 0px;
     background-color: #313131;
-    color: #BDBDBD;
+    color: #bdbdbd;
     font-family: "Poppins", Sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.57em;
     border-style: solid;
     border-width: 0px 0px 0px 0px;
-    border-color: #FFFFFF;
+    border-color: #ffffff;
   }
   .footer .footer-mail form .inputsubmit {
-    background-color: #FF0505;
+    background-color: #ff0505;
     padding: 012px 019px 012px 019px;
     margin: 0px 0px 0px 0px;
     border-radius: 0px 0px 0px 0px;
@@ -1963,14 +1985,14 @@
     margin-right: 15px;
   }
   .footer .footer-mail .footer-mail-box h6 {
-    color: #BDBDBD;
+    color: #bdbdbd;
     font-family: "Poppins", Sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.57em;
   }
   .footer .footer-mail .footer-mail-box h5 {
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .move {
     padding-top: 50px;
@@ -2017,7 +2039,7 @@
     width: 75%;
   }
   .move .move-box .move-text h1 {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "Poppins", Sans-serif;
     font-size: 48px;
     font-weight: 600;
@@ -2025,7 +2047,7 @@
     letter-spacing: 0px;
   }
   .move .move-box .move-text h1 span {
-    color: #76CE16;
+    color: #76ce16;
     font-family: "Poppins", Sans-serif;
     font-size: 48px;
     font-weight: 600;
@@ -2033,7 +2055,7 @@
     letter-spacing: 0px;
   }
   .move .move-box .move-text h2 {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "Poppins", Sans-serif;
     font-size: 48px;
     font-weight: 600;
@@ -2071,14 +2093,16 @@
   margin-right: 10px;
 }
 
-.light .navbar .navbar-nav .nav-item li, .light .navbar .navbar-nav .nav-item a {
+.light .navbar .navbar-nav .nav-item li,
+.light .navbar .navbar-nav .nav-item a {
   color: white;
   font-family: "Poppins", Sans-serif;
   font-size: 15px;
   font-weight: 500;
 }
 
-.light .navbar .navbar-nav .nav-item li:hover, .light .navbar .navbar-nav .nav-item a:hover {
+.light .navbar .navbar-nav .nav-item li:hover,
+.light .navbar .navbar-nav .nav-item a:hover {
   color: red;
 }
 
@@ -2099,7 +2123,8 @@
       justify-content: space-around;
 }
 
-.light .navbar .navbar-right ul li, .light .navbar .navbar-right ul a {
+.light .navbar .navbar-right ul li,
+.light .navbar .navbar-right ul a {
   margin-top: 18px;
   list-style-type: none;
   margin-right: 10px;
@@ -2110,21 +2135,25 @@
   font-weight: 500;
 }
 
-.light .navbar .navbar-right ul li .right-user i, .light .navbar .navbar-right ul a .right-user i {
-  -webkit-transition: .1s;
-  transition: .1s;
+.light .navbar .navbar-right ul li .right-user i,
+.light .navbar .navbar-right ul a .right-user i {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
-.light .navbar .navbar-right ul li .right-user i:hover, .light .navbar .navbar-right ul a .right-user i:hover {
+.light .navbar .navbar-right ul li .right-user i:hover,
+.light .navbar .navbar-right ul a .right-user i:hover {
   font-size: 18px;
   color: white;
 }
 
-.light .navbar .navbar-right ul li .right-card i, .light .navbar .navbar-right ul a .right-card i {
+.light .navbar .navbar-right ul li .right-card i,
+.light .navbar .navbar-right ul a .right-card i {
   font-size: 20px;
 }
 
-.light .navbar .navbar-right ul li .right-card .right-card-number, .light .navbar .navbar-right ul a .right-card .right-card-number {
+.light .navbar .navbar-right ul li .right-card .right-card-number,
+.light .navbar .navbar-right ul a .right-card .right-card-number {
   font-size: 11px;
   position: relative;
   top: 6px;
@@ -2135,21 +2164,25 @@
   color: white;
 }
 
-.light .navbar .navbar-right ul li .right-card .right-card-number:hover, .light .navbar .navbar-right ul a .right-card .right-card-number:hover {
+.light .navbar .navbar-right ul li .right-card .right-card-number:hover,
+.light .navbar .navbar-right ul a .right-card .right-card-number:hover {
   color: white;
 }
 
-.light .navbar .navbar-right ul li .right-moon i, .light .navbar .navbar-right ul a .right-moon i {
-  -webkit-transition: .1s;
-  transition: .1s;
+.light .navbar .navbar-right ul li .right-moon i,
+.light .navbar .navbar-right ul a .right-moon i {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
   color: yellow;
 }
 
-.light .navbar .navbar-right ul li .right-moon i:hover, .light .navbar .navbar-right ul a .right-moon i:hover {
+.light .navbar .navbar-right ul li .right-moon i:hover,
+.light .navbar .navbar-right ul a .right-moon i:hover {
   font-size: 18px;
 }
 
-.light .navbar .navbar-right ul li:hover, .light .navbar .navbar-right ul a:hover {
+.light .navbar .navbar-right ul li:hover,
+.light .navbar .navbar-right ul a:hover {
   color: red;
 }
 
@@ -2176,7 +2209,7 @@
 }
 
 .light .hero .main .main-left h1 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", Sans-serif;
   font-size: 76px;
   font-weight: 600;
@@ -2185,7 +2218,7 @@
 }
 
 .light .hero .main .main-left h1 span {
-  color: #76CE16;
+  color: #76ce16;
 }
 
 .light .hero .main .main-left button {
@@ -2237,11 +2270,11 @@
 .light .power .poweritem-box .solid {
   font-size: 50px;
   margin-bottom: 30px;
-  color: #76CE16;
+  color: #76ce16;
 }
 
 .light .power .poweritem-box h4 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", Sans-serif;
   font-size: 21px;
   font-weight: 600;
@@ -2251,7 +2284,7 @@
 }
 
 .light .power .poweritem-box p {
-  color: #A1A1A1;
+  color: #a1a1a1;
   font-family: "Poppins", Sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -2277,7 +2310,7 @@
 }
 
 .light .strong {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   background-image: url("../img/home_bg.webp");
   background-size: cover;
   height: auto;
@@ -2374,7 +2407,7 @@
 }
 
 .light .guarantee .guarantee-title h1 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", Sans-serif;
   font-size: 36px;
   font-weight: 600;
@@ -2384,7 +2417,7 @@
 
 .light .guarantee .guarantee-title p {
   text-align: center;
-  color: #7E7E7E;
+  color: #7e7e7e;
   font-family: "Poppins", Sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -2407,7 +2440,7 @@
   text-align: center;
   width: 200px;
   margin-bottom: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", Sans-serif;
   font-size: 21px;
   font-weight: 600;
@@ -2480,13 +2513,13 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 1.56em;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 20px;
   margin-left: 20px;
 }
 
 .light .news .newsitem-box .newsitem-text p {
-  color: #BDBDBD;
+  color: #bdbdbd;
   font-family: "Poppins", Sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -2540,7 +2573,7 @@
   --icon-padding: 0.71em;
   border-style: solid;
   border-width: 0px 0px 0px 0px;
-  border-color: #FFFFFF;
+  border-color: #ffffff;
   padding: 15px;
   font-size: 16px;
   color: white;
@@ -2554,7 +2587,7 @@
 
 .light .footer .footer-info p {
   padding-top: 35px;
-  color: #BDBDBD !important;
+  color: #bdbdbd !important;
   font-family: "Poppins", Sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -2589,7 +2622,7 @@
 }
 
 .light .footer .footer-mail h1 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", Sans-serif;
   font-size: 18px;
   font-weight: 500;
@@ -2607,18 +2640,18 @@
   padding: 010px 015px 11px 015px;
   border-radius: 0px 0px 0px 0px;
   background-color: #313131;
-  color: #BDBDBD;
+  color: #bdbdbd;
   font-family: "Poppins", Sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.57em;
   border-style: solid;
   border-width: 0px 0px 0px 0px;
-  border-color: #FFFFFF;
+  border-color: #ffffff;
 }
 
 .light .footer .footer-mail form .inputsubmit {
-  background-color: #FF0505;
+  background-color: #ff0505;
   padding: 012px 019px 012px 019px;
   margin: 0px 0px 0px 0px;
   border-radius: 0px 0px 0px 0px;
@@ -2646,7 +2679,7 @@
 }
 
 .light .footer .footer-mail .footer-mail-box h6 {
-  color: #BDBDBD;
+  color: #bdbdbd;
   font-family: "Poppins", Sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -2654,7 +2687,7 @@
 }
 
 .light .footer .footer-mail .footer-mail-box h5 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .light .pictures {
@@ -2695,8 +2728,8 @@
   opacity: 0;
   background-color: red;
   z-index: 3;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2795,7 +2828,7 @@
 }
 
 .light .move .move-box .move-text h1 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", Sans-serif;
   font-size: 48px;
   font-weight: 600;
@@ -2804,7 +2837,7 @@
 }
 
 .light .move .move-box .move-text h1 span {
-  color: #76CE16;
+  color: #76ce16;
   font-family: "Poppins", Sans-serif;
   font-size: 48px;
   font-weight: 600;
@@ -2813,7 +2846,7 @@
 }
 
 .light .move .move-box .move-text h2 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins", Sans-serif;
   font-size: 48px;
   font-weight: 600;
@@ -2944,8 +2977,8 @@
   position: absolute;
   top: 0;
   opacity: 0;
-  -webkit-transition: .1s;
-  transition: .1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .light .recent .recent-products .recent-product .recent-img .recent-top {
@@ -2953,7 +2986,7 @@
   top: 0;
   left: 0;
   color: #ffffff;
-  background-color: #FF0505;
+  background-color: #ff0505;
 }
 
 .light .recent .recent-products .recent-product .recent-img .recent-top span {
@@ -2970,8 +3003,8 @@
   padding-top: 30px;
   padding-bottom: 30px;
   opacity: 1;
-  -webkit-transition: .1s;
-  transition: .1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .light .recent .recent-products .recent-product .recent-title {
@@ -3003,7 +3036,7 @@
   font-weight: 500;
   line-height: 1.56em;
   letter-spacing: 0px;
-  color: #FF0505;
+  color: #ff0505;
   text-align: center;
 }
 
@@ -3115,8 +3148,8 @@
   position: absolute;
   top: 0;
   opacity: 0;
-  -webkit-transition: .1s;
-  transition: .1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .light .offers .offers-product .offers-img .offers-top {
@@ -3124,7 +3157,7 @@
   top: 0;
   left: 0;
   color: #ffffff;
-  background-color: #FF0505;
+  background-color: #ff0505;
 }
 
 .light .offers .offers-product .offers-img .offers-top span {
@@ -3141,8 +3174,8 @@
   padding-bottom: 10px;
   display: block;
   opacity: 1;
-  -webkit-transition: .1s;
-  transition: .1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
   width: 90%;
 }
 
@@ -3175,7 +3208,7 @@
   font-weight: 500;
   line-height: 1.56em;
   letter-spacing: 0px;
-  color: #FF0505;
+  color: #ff0505;
   text-align: center;
 }
 
@@ -3283,7 +3316,7 @@
   top: 0;
   left: 0;
   color: #ffffff;
-  background-color: #FF0505;
+  background-color: #ff0505;
 }
 
 .light .deal .deal-product .deal-img .deal-top span {
@@ -3301,8 +3334,8 @@
   width: 87%;
   display: block;
   opacity: 1;
-  -webkit-transition: .1s;
-  transition: .1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .light .deal .deal-product .deal-title {
@@ -3334,7 +3367,7 @@
   font-weight: 500;
   line-height: 1.56em;
   letter-spacing: 0px;
-  color: #FF0505;
+  color: #ff0505;
   text-align: center;
 }
 
@@ -3473,8 +3506,8 @@
   position: absolute;
   top: 0;
   opacity: 0;
-  -webkit-transition: .1s;
-  transition: .1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .light .promotions .promotions-product .promotions-img .promotions-top {
@@ -3482,7 +3515,7 @@
   top: 0;
   left: 0;
   color: #ffffff;
-  background-color: #FF0505;
+  background-color: #ff0505;
 }
 
 .light .promotions .promotions-product .promotions-img .promotions-top span {
@@ -3500,8 +3533,8 @@
   width: 87%;
   display: block;
   opacity: 1;
-  -webkit-transition: .1s;
-  transition: .1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .light .promotions .promotions-product .promotions-title {
@@ -3533,7 +3566,7 @@
   font-weight: 500;
   line-height: 1.56em;
   letter-spacing: 0px;
-  color: #FF0505;
+  color: #ff0505;
   text-align: center;
 }
 
@@ -3616,7 +3649,7 @@
 }
 
 .light .bit .bit-text .bit-textboxes .bit-box h4 {
-  color: #FF0505;
+  color: #ff0505;
   font-family: "Poppins", Sans-serif;
   font-size: 44px;
   font-weight: 600;
@@ -3676,7 +3709,7 @@
 }
 
 .light .ever .ever-text .ever-textbox .ever-textbox-title h6 {
-  color: #7E7E7E;
+  color: #7e7e7e;
   font-family: "Poppins", Sans-serif;
   font-size: 14px;
   font-weight: 400;

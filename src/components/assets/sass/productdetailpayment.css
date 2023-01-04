@@ -14,7 +14,7 @@
   position: absolute;
   top: 0;
   color: #ffffff;
-  background-color: #FF0505;
+  background-color: #ff0505;
 }
 
 .productdetail .productdetail-img .productdetail-img-top span {
@@ -160,7 +160,7 @@
   top: 0;
   left: 0;
   color: #ffffff;
-  background-color: #FF0505;
+  background-color: #ff0505;
 }
 
 .productdetail .productdetail-related .recent-product .recent-img .recent-top span {
@@ -177,8 +177,8 @@
   padding-top: 30px;
   padding-bottom: 30px;
   opacity: 1;
-  -webkit-transition: .1s;
-  transition: .1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .productdetail .productdetail-related .recent-product .recent-title {
@@ -210,7 +210,7 @@
   font-weight: 500;
   line-height: 1.56em;
   letter-spacing: 0px;
-  color: #FF0505;
+  color: #ff0505;
   text-align: center;
 }
 

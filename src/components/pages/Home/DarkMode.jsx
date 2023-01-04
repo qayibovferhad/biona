@@ -1,12 +1,11 @@
 import React from "react";
-import styled from 'styled-components';
+import styled from "styled-components";
 let Sun, Moon;
 
 Sun = Moon = styled.svg`
-  transition: all .5s linear;
+  transition: all 0.5s linear;
 `;
 const DarkMode = () => {
-
   let clickedClass = "clicked";
   const body = document.body;
   const lightTheme = "light";
@@ -38,11 +37,13 @@ const DarkMode = () => {
   };
 
   return (
-    <button className={theme === "dark" ? clickedClass : ""}
-    id="darkMode"
-    onClick={(e) => switchTheme(e)}>
-   <i class="fa-solid fa-moon"></i>
-</button>
+    <button
+      className={theme === "dark" ? clickedClass : ""}
+      id="darkMode"
+      onClick={(e) => switchTheme(e)}
+    >
+      <i class="fa-solid fa-moon"></i>
+    </button>
   );
 };
 
